@@ -6,6 +6,9 @@
     text-align:center;
     padding-left:10px;
 }
+.navbar-toggler{
+    color:white;
+}
 @media(max-width:576px){
     .btn{
         display: block;
@@ -14,6 +17,7 @@
     }
 
 }
+
 
 
 
