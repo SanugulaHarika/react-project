@@ -2,9 +2,6 @@ table{
     table-layout:fixed;
     width:100%;
 }
-td, th{
-    word-wrap:break-word;
-}
 .email-column{
     max-width:200px;
     word-break:break-all;
@@ -17,3 +14,4 @@ td, th{
     }
 
 }
+
