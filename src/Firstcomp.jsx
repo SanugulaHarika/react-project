@@ -51,7 +51,7 @@ function Firstcomp() {
     {details.map((item)=>{
         return(
             <tr key={item.id}>
-                <td class="sno>{item.id}</td>
+                <td class="sno">{item.id}</td>
                 <td>{item.firstname}</td>
                 <td>{item.lastname}</td>
                 <td>{item.phoneno}</td>
@@ -73,5 +73,6 @@ function Firstcomp() {
 
 
 export default Firstcomp;
+
 
 
