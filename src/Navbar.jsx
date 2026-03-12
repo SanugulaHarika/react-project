@@ -1,7 +1,7 @@
 function Navbar() {
     return ( 
     <>
-    <nav class="navbar navbar-expand-lg navabar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <h3 className="text-light pe-5">Student Details</h3>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,3 +21,4 @@ function Navbar() {
 
 
 export default Navbar;
+
