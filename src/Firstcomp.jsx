@@ -38,13 +38,13 @@ function Firstcomp() {
     <table class="table table-striped">
   <thead>
     <tr>
-      <th scope="col">S.No</th>
+      <th scope="col" class="sno">S.No</th>
       <th scope="col">Firstname</th>
       <th scope="col">Lastname</th>
-      <th scope="col">phoneno</th>
-      <th scope="col">email</th>
+      <th scope="col" class="phone">phoneno</th>
+      <th scope="col" class="email">email</th>
       <th scope="col pe-5 me-5">Gender</th>
-      <th scope="col pe-5 me-5">actions</th>
+      <th scope="col pe-5 me-5" class="actions">actions</th>
     </tr>
   </thead>
   <tbody>
@@ -55,7 +55,7 @@ function Firstcomp() {
                 <td>{item.firstname}</td>
                 <td>{item.lastname}</td>
                 <td>{item.phoneno}</td>
-                <td class="email-column">{item.email}</td> 
+                <td>{item.email}</td> 
                 <td>{item.gender}</td>
                 <td>
                   <button className="btn btn-success me-1" onClick={()=>update(item.id)}>Update</button>
@@ -73,3 +73,4 @@ function Firstcomp() {
 
 
 export default Firstcomp;
+
