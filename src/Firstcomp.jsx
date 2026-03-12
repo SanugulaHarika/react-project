@@ -43,15 +43,15 @@ function Firstcomp() {
       <th scope="col">Lastname</th>
       <th scope="col" class="phone">phoneno</th>
       <th scope="col" class="email">email</th>
-      <th scope="col pe-5 me-5">Gender</th>
-      <th scope="col pe-5 me-5" class="actions">actions</th>
+      <th scope="col">Gender</th>
+      <th scope="col" class="actions">actions</th>
     </tr>
   </thead>
   <tbody>
     {details.map((item)=>{
         return(
             <tr key={item.id}>
-                <td>{item.id}</td>
+                <td class="sno>{item.id}</td>
                 <td>{item.firstname}</td>
                 <td>{item.lastname}</td>
                 <td>{item.phoneno}</td>
@@ -73,4 +73,5 @@ function Firstcomp() {
 
 
 export default Firstcomp;
+
 
