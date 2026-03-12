@@ -2,22 +2,6 @@ table{
     table-layout:fixed;
     width:100%;
 }
-th, td{
-    text-align:center;
-    word-wrap:break-word;
-}
-.sno{
-    width:60px;
-}
-.phone{
-    width:150px;
-}
-.email{
-    width:220px;
-}
-.actions{
-    width:150px;
-}
 @media(max-width:576px){
     .btn{
         display: block;
@@ -26,4 +10,5 @@ th, td{
     }
 
 }
+
 
