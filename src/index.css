@@ -2,6 +2,9 @@ table{
     table-layout:fixed;
     width:100%;
 }
+.sno{
+    padding-left:20px;
+}
 @media(max-width:576px){
     .btn{
         display: block;
@@ -10,5 +13,6 @@ table{
     }
 
 }
+
 
 
