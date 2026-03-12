@@ -1,0 +1,26 @@
+{
+  "details": [
+    {
+      "Firstname": "pooduri",
+      "Lastname": "kavya",
+      "phoneno": "45379756",
+      "email": "poodurilaya@gmail.com",
+      "id": "1"
+    },
+    {
+      "id": "0138",
+      "Firstname": "Sanugula",
+      "Lastname": "Harika",
+      "phoneno": "8746547968",
+      "email": "sanugulaharika81@gmail.com"
+    },
+    {
+      "id": "5118",
+      "Firstname": "Sanugula",
+      "Lastname": "Harika",
+      "phoneno": "8746547968",
+      "email": "sanugulaharika81@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
