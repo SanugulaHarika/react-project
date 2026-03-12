@@ -55,7 +55,7 @@ function Firstcomp() {
                 <td>{item.firstname}</td>
                 <td>{item.lastname}</td>
                 <td>{item.phoneno}</td>
-                <td>{item.email}</td> 
+                <td class="email-column">{item.email}</td> 
                 <td>{item.gender}</td>
                 <td>
                   <button className="btn btn-success me-1" onClick={()=>update(item.id)}>Update</button>
@@ -70,5 +70,6 @@ function Firstcomp() {
     </>
     );
 }
+
 
 export default Firstcomp;
